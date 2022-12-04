@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1670139574 source:d:\study\2 - hk i\th\th dsa\code\graph\bfs.cpp
+	"header.h"
+	"bfs.h"
+
+1670139475 d:\study\2 - hk i\th\th dsa\code\graph\header.h
+	<iostream>
+	<vector>
+	<math.h>
+
+1670141351 source:d:\study\2 - hk i\th\th dsa\code\graph\main.cpp
+	"header.h"
+	"bfs.h"
+	"dfs.h"
+	"dijkstra.h"
+
+1670139582 source:d:\study\2 - hk i\th\th dsa\code\graph\dfs.cpp
+	"header.h"
+	"dfs.h"
+
+1670138994 d:\study\2 - hk i\th\th dsa\code\graph\dfs.h
+	"header.h"
+
+1670138999 d:\study\2 - hk i\th\th dsa\code\graph\bfs.h
+	"header.h"
+	<queue>
+
+1670141150 source:d:\study\2 - hk i\th\th dsa\code\graph\header.cpp
+	"header.h"
+
+1670141394 source:d:\study\2 - hk i\th\th dsa\code\graph\dijkstra.cpp
+	"header.h"
+	"dijkstra.h"
+
+1670141215 d:\study\2 - hk i\th\th dsa\code\graph\dijkstra.h
+	"header.h"
+	<queue>
+
