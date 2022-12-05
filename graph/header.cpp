@@ -34,7 +34,7 @@ void inputWithLength(int &n, int &m, vector <vector <pair<int, int>> > &adj) {
         int u, v, d;
         cin >> u >> v >> d;
         adj[u].push_back({d, v});
-        //adj[v].push_back({d, u});
+        adj[v].push_back({d, u});
     }
 
     return;

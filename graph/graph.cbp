@@ -40,6 +40,8 @@
 		<Unit filename="header.cpp" />
 		<Unit filename="header.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="prim.cpp" />
+		<Unit filename="prim.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

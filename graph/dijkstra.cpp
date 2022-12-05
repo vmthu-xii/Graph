@@ -1,6 +1,8 @@
 #include "header.h"
 #include "dijkstra.h"
 
+// https://vnoi.info/wiki/algo/graph-theory/shortest-path.md
+// https://sites.google.com/site/kc97ble/algorithm-graph/dijkstra-cpp
 void initDijkstra(int n, int *dist, int *pre) {
     for(int i = 0; i <= n; ++i) {
         dist[i] = int(INFINITY);
@@ -11,7 +13,12 @@ void initDijkstra(int n, int *dist, int *pre) {
 }
 
 void dijkstra(int s, vector <vector <pair<int, int>> > adj, int *dist, int *pre) {
-    // Khởi tạo priority_queue chứa các đỉnh đã thăm
+    // Sử dụng priority_queue lưu khoảng cách của các đỉnh kề tăng dần với các đỉnh đã thêm vào đồ thị
+    // Vì priority_queue.top luôn là phần tử lớn nhất, ta sẽ phải sử dụng greater<pair<int,int>>
+    // để priority_queue.top là phần tử nhỏ nhất
+    // các phần tử lưu trong priority queue sẽ có dạng pair<dist[u],u>
+    // priority_queue trong trường hợp lưu cấu trúc air<int, int> sẽ sort theo phần tử thứ nhất,
+    // nên ta pair<int, int> có dạng <dist[u], u>
     priority_queue <pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>> > pq;
 
     dist[s] = 0;

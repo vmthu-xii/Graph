@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1670139574 source:d:\study\2 - hk i\th\th dsa\code\graph\bfs.cpp
+1670141930 source:d:\study\2 - hk i\th\th dsa\code\graph\bfs.cpp
 	"header.h"
 	"bfs.h"
 
@@ -8,13 +8,14 @@
 	<vector>
 	<math.h>
 
-1670141351 source:d:\study\2 - hk i\th\th dsa\code\graph\main.cpp
+1670208978 source:d:\study\2 - hk i\th\th dsa\code\graph\main.cpp
 	"header.h"
 	"bfs.h"
 	"dfs.h"
 	"dijkstra.h"
+	"prim.h"
 
-1670139582 source:d:\study\2 - hk i\th\th dsa\code\graph\dfs.cpp
+1670141939 source:d:\study\2 - hk i\th\th dsa\code\graph\dfs.cpp
 	"header.h"
 	"dfs.h"
 
@@ -25,14 +26,22 @@
 	"header.h"
 	<queue>
 
-1670141150 source:d:\study\2 - hk i\th\th dsa\code\graph\header.cpp
+1670209409 source:d:\study\2 - hk i\th\th dsa\code\graph\header.cpp
 	"header.h"
 
-1670141394 source:d:\study\2 - hk i\th\th dsa\code\graph\dijkstra.cpp
+1670141919 source:d:\study\2 - hk i\th\th dsa\code\graph\dijkstra.cpp
 	"header.h"
 	"dijkstra.h"
 
 1670141215 d:\study\2 - hk i\th\th dsa\code\graph\dijkstra.h
 	"header.h"
 	<queue>
+
+1670162725 d:\study\2 - hk i\th\th dsa\code\graph\prim.h
+	"header.h"
+	<queue>
+
+1670163680 source:d:\study\2 - hk i\th\th dsa\code\graph\prim.cpp
+	"header.h"
+	"prim.h"
 

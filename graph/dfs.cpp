@@ -1,6 +1,9 @@
 #include "header.h"
 #include "dfs.h"
 
+// https://vnoi.info/wiki/algo/graph-theory/Depth-First-Search-Tree.md
+// https://sites.google.com/site/kc97ble/algorithm-graph/dfs-cpp
+
 int timeDfs = 0;
 
 void dfs(int u, vector <vector <int> > adj, int *d, int *parent, bool *isVisit, int *num, int *tail) {

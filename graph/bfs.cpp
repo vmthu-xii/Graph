@@ -1,6 +1,9 @@
 #include "header.h"
 #include "bfs.h"
 
+// https://vnoi.info/wiki/algo/graph-theory/breadth-first-search.md
+// https://sites.google.com/site/kc97ble/algorithm-graph/bfs-cpp
+
 void bfs(int s, vector <vector <int> > adj, int *d, int *parent, bool *isVisit) {
 
     // Khởi tạo queue chứa các đỉnh đã thăm
